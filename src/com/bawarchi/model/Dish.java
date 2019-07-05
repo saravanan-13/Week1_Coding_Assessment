@@ -66,7 +66,7 @@ public class Dish implements Comparable<Dish>{
 	
 	@Override
 	public String toString() {
-		return "Dish Id: "+ id +", name: "+ name + ", Price: " + price + ", Calories: " + calories +"\n"; 
+		return "\nDish Id: "+ id +", name: "+ name + ", Price: " + price + ", Calories: " + calories +"\n"; 
 	}
 	
 
