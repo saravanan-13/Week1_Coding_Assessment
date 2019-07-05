@@ -89,7 +89,7 @@ public class Restaurant {
 		System.out.println("\n    ==========You have selected "+dish.getName() + "=====================\r\n");
 		System.out.println("Please Enter your name : \n");
 		name = scanner.nextLine();
-		System.out.println("    Please pay the bill of Rs "+dish.getPrice()+"\r\n");
+		System.out.println(name+" Please pay the bill of Rs "+dish.getPrice()+"\r\n");
 		
 		payment = scanner.nextDouble();
 		scanner.nextLine();
